@@ -1,0 +1,18 @@
+<view class="bdy">
+	<!-- <view class="title">公司简介</view> -->
+	<image src="../../images/teacher_banner.jpg" class="title_img"></image>
+	<view class="text">
+		<view>
+			<view class="title_a">公司介绍</view>
+			<view class="text_t">
+				诚品动漫培训机构成立于2013年6月,位于长葛市长葛市空港电商园,致力于职业技术教育与人才服务,坚持“以服务为宗旨、以就业为导向、以提高质量为重点”，提升技术，优化办学结构和办学模式。主要为热爱编程的学子提供全方位、多元化的培养。
+			</view>
+			<view class="text_t">
+				本公司主要输出编程类人才,培训内容包括: web前端、ui设计、php后端、安卓等!
+			</view>
+			<view class="text_t">
+				本公司长期跟尚游园动漫产业有限公司合作,定期为其输送优质学员,学员在公司培训期间,可以在合作公司进行带薪实习 !
+			</view>
+		</view> 
+	</view>
+</view>

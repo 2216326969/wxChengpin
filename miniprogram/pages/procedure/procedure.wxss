@@ -1,0 +1,35 @@
+/* pages/procedure/procedure.wxss */
+
+.img{
+  width: 100%;
+  height: 264rpx;
+}
+.viw{
+  display: inline;
+  color: orangered;
+  font-size: 15px;
+}
+.xing{
+  vertical-align: bottom;
+}
+.title{
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: bold;
+  color: red;
+  padding: 3% 0;
+}
+.text{
+  width: 90%;
+  margin: auto;
+}
+.text_t{
+  text-indent: 17px;
+  font-size: 28rpx;
+  color: #333;
+  line-height: 29px;
+}
+.hint .text_t{
+  color: #6f6f6f;
+  font-size: 23rpx !important;
+}

@@ -1,0 +1,159 @@
+<view>
+	<image src="../../images/banner_ui.jpg" class="img"></image>
+	<view class="txt">
+		<view class="title">行业新趋势 ！ UI设计来袭</view>
+		<view class="text">
+			<view class="viw">2017年阿里开始招收UXD设计师， </view>
+			UI设计师的岗位将会被逐步替代。技能更强，能力更全的UXD全链路设计师将比传统设计师更吃香！
+		</view>
+		<image src="../../images/ui.png" class="txt_ig"></image>
+		<view class="title">课程适合哪些人学习？</view>
+		<view class="box">
+			<view class="sing">
+				<view class="sing_bg">
+					<image src="../../images/ui_b.png"></image>
+				</view>
+				<view class="box_txt">毫无设计经验</view>
+				<view class="box_txta">零基础学习</view>
+				<view class="box_btn">我要就业</view>
+			</view>
+			<view class="sing">
+				<view class="sing_bg">
+					<image src="../../images/ui_a.png"></image>
+				</view>
+				<view class="box_txt">传统型设计师</view>
+				<view class="box_txta">能力提升</view>
+				<view class="box_btn">我要升职</view>
+			</view>
+			<view class="sing">
+				<view class="sing_bg">
+					<image src="../../images/ui_c.png" class="img_a"></image>
+				</view>
+				<view class="box_txt">掌握项目全流程</view>
+				<view class="box_txta">自主创业</view>
+				<view class="box_btn">我要创业</view>
+			</view>
+		</view>
+		<view style="width:100%;height:5vh"></view>
+		<view class="skill">
+			<view class="title">技能全点满，带你职场脱颖而出</view>
+			<view>
+				UXD全能设计是对UI设计师能力要求的全面升级， 掌握用户界面设计（UI）能力，交互设计(ID)、用户体验设计（UX）以及跨媒体设计（COD)的实战经验，是企业重金难求的全能型设计人才。
+			</view>
+			<view class="skill_a">
+				<view>
+					<image src="../../images/ui1.jpg"></image>
+					<view>视觉表现能力</view>
+				</view>
+				<view>
+					<image src="../../images/ui2.jpg"></image>
+					<view>运营设计能力</view>
+				</view>
+				<view>
+					<image src="../../images/ui3.jpg"></image>
+					<view>产品分析能力</view>
+				</view>
+				<view>
+					<image src="../../images/ui4.jpg"></image>
+					<view>设计验证能力</view>
+				</view>
+				<view>
+					<image src="../../images/ui5.jpg"></image>
+					<view>用户体验能力</view>
+				</view>
+				<view>
+					<image src="../../images/ui6.jpg"></image>
+					<view>动态设计能力</view>
+				</view>
+			</view>
+		</view>
+		<!-- 六大阶段 -->
+		<view>
+			<view class="title">六大阶段，掌握UI全链路设计</view>
+			<view class="title_d">0基础晋升设计、擅交互、会前端、懂产品的UXD全链路设计师！</view>
+			<view class="btns">
+				<view class="one {{TopIndex == 0 ? 'active':''}}" data-index="0" bindtap="click">第一阶段</view>
+				<view class="two {{TopIndex == 1 ? 'active':''}}" data-index="1" bindtap="click">第二阶段</view>
+				<view class="there {{TopIndex == 2 ? 'active':''}}" data-index="2" bindtap="click">第三阶段</view>
+				<view class="for {{TopIndex == 3 ? 'active':''}}" data-index="3" bindtap="click">第四阶段</view>
+				<view class="five {{TopIndex == 4 ? 'active':''}}" data-index="4" bindtap="click">第五阶段</view>
+				<view class="six {{TopIndex == 5 ? 'active':''}}" data-index="5" bindtap="click">第六阶段</view>
+			</view>
+			<!-- 内容区 -->
+			<!-- 第一阶段 -->
+			<view class="content1" wx:if="{{TopIndex == 0}}">
+				<image src="cloud://ssy-pe58p.7373-ssy-pe58p-1302805984/chengpin/img/box6_a1.jpg"></image>
+				<view class="one_a">
+					<view class="one_title">第一阶段：基础设计课</view>
+					<view>1. 让学员建立基础对审美的认知</view>
+					<view>2. 美术基础内容，配合鉴赏使学员由欣赏转为动手能力</view>
+					<view>3. PS基础课程使手绘稿变为符合现在平台设备的可复制的电子形式</view>
+				</view>
+			</view>
+			<!-- 第二阶段 -->
+			<view class="content1" wx:if="{{TopIndex == 1}}">
+				<image src="cloud://ssy-pe58p.7373-ssy-pe58p-1302805984/chengpin/img/box6_b1.jpg"></image>
+				<view class="one_a">
+					<view class="one_title">第二阶段：设计进阶阶段</view>
+					<view>1. 绘画层层递进，由基础像更高级的需求进阶</view>
+					<view>2. 学员慢慢接触项目思维，使艺术与需求高度融合</view>
+					<view>3. 建立设计师库，培养良好的设计习惯和设计师素质</view>
+				</view>
+			</view>
+			<!-- 第三阶段 -->
+			<view class="content1" wx:if="{{TopIndex == 2}}">
+				<image src="cloud://ssy-pe58p.7373-ssy-pe58p-1302805984/chengpin/img/box6_c1.jpg"></image>
+				<view class="one_a">
+					<view class="one_title">第三阶段：UI项目实战阶段</view>
+					<view>1. 艺术设计与UI及运营的全方位打磨</view>
+					<view>2. 设计师掌握并制定合理的交互变现及视觉呈现</view>
+					<view>3. 由互联网衍生的其他的UI及交互形式</view>
+				</view>
+			</view>
+			<!-- 第四阶段 -->
+			<view class="content1" wx:if="{{TopIndex == 3}}">
+				<image src="cloud://ssy-pe58p.7373-ssy-pe58p-1302805984/chengpin/img/box6_d1.jpg"></image>
+				<view class="one_a">
+					<view class="one_title">第四阶段：电商项目实战阶段</view>
+					<view>1. 摄影为电商中表现商品重要的环节</view>
+					<view>2. 实现转化需求的营销配套页面设计</view>
+					<view>3. 多平台、多元化的设计方案</view>
+				</view>
+			</view>
+			<!-- 第五阶段 -->
+			<view class="content1" wx:if="{{TopIndex == 4}}">
+				<image src="cloud://ssy-pe58p.7373-ssy-pe58p-1302805984/chengpin/img/box6_e1.jpg"></image>
+				<view class="one_a">
+					<view class="one_title">第五阶段：C4D课程实战阶段</view>
+					<view>1.三维思维锻造</view>
+					<view>2.各种文字动画表现形式</view>
+					<view>3.UI、电商、平面多行业极致应用</view>
+				</view>
+			</view>
+			<!-- 第六阶段 -->
+			<view class="content1" wx:if="{{TopIndex == 5}}">
+				<image src="cloud://ssy-pe58p.7373-ssy-pe58p-1302805984/chengpin/img/box6_f1.jpg"></image>
+				<view class="one_a">
+					<view class="one_title">第六阶段：平面项目实战阶段</view>
+					<view>1. logo简单实用设计方法总结与实现</view>
+					<view>2. 品牌设计输出及整体输出归纳实践</view>
+					<view>3. 品牌形象VI表现与落地</view>
+				</view>
+			</view>
+		</view>
+
+
+	</view>
+	<!-- 更多 -->
+	<view class="more">
+		<view class="more_tit">更多培训课程</view>
+		<view class="btn">
+			<view bindtap="web">web前端</view>
+			<view bindtap="c">C/C++</view>
+			<view bindtap="php">PHP</view>
+			<view bindtap="linux">Linux运维</view>
+			<view bindtap="android">Android</view>
+			<view class="btn_active">UI</view>
+		</view>
+	</view>
+</view>

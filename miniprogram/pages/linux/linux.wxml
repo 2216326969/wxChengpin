@@ -1,0 +1,62 @@
+<view>
+	<image src="../../images/banner_linux.jpg" class="img"></image>
+	<view class="title">
+		<view>Linux技术适用于各个领域行业-前景巨大</view>
+		<view>零基础首选的IT技术</view>
+	</view>
+	<image src="cloud://ssy-pe58p.7373-ssy-pe58p-1302805984/chengpin/img/bg4.png" class="ig"></image>
+	<view class="quarters">
+		<view class="title top">
+			<view>云计算时代，Linux运维及云计算工程师</view>
+			<view>岗位供不应求</view>
+		</view>
+		<image src="cloud://ssy-pe58p.7373-ssy-pe58p-1302805984/chengpin/img/box3_img1.jpg"></image>
+		<view class="quarters_txt">IT运维管理行业市场容量将呈现出逐年增长态势，到2024年IT运维管理行业市场规模将达到3832.8亿元。</view>
+	</view>
+	<!-- 课程内容 -->
+	<view class="course">
+		<view class="title">
+			<view>就业+架构提升一步到位</view>
+			<view>全 "薪" 出发</view>
+		</view>
+		<view class="btns">
+			<view class="one {{TopIndex == 0 ? 'active':''}}" data-index="0" bindtap="click">阶段一：运维基本功</view>
+			<view class="two {{TopIndex == 1 ? 'active':''}}" data-index="1" bindtap="click">阶段二：Linux系统服务篇</view>
+			<view class="there {{TopIndex == 2 ? 'active':''}}" data-index="2" bindtap="click">阶段三：千万级商城系统架构设计</view>
+			<view class="for {{TopIndex == 3 ? 'active':''}}" data-index="3" bindtap="click">阶段四：Linux云计算</view>
+			<view class="five {{TopIndex == 4 ? 'active':''}}" data-index="4" bindtap="click">阶段五：Python CMDB运维开发</view>
+		</view>
+		<!-- 第一 -->
+		<view class="content1" wx:if="{{TopIndex == 0}}">
+			<view>运维基础、Linux操作系统、Linux下文件管理、Linux下用户管理、Linux下权限管理、Linux下自有服务+软件包管理、Linux进程检测与控制、阿里云平台管理与开发CMS项目上线部署实战</view>
+		</view>
+		<!-- 第二 -->
+		<view class="content1" wx:if="{{TopIndex == 1}}">
+			Linux高级指令、Linux下软件包管理、Linux远程管理服务SSH、Linux数据同步RSYNC、Linux下文件共享服务FTP NFS SAMBA、DNS域名管理服务、源码构建LAMP环境及部署业务应用、Linux下日志管理服务RSYSLOG、Linux 磁盘管理、Shell脚本编程、数据库DBA
+		</view>
+		<!-- 第三 -->
+		<view class="content1" wx:if="{{TopIndex == 2}}">
+			源码构建企业级LNMP架构及电商系统上线部署、大型WEB服务软件Nginx部署介绍使用、WEB高可用集群架构设计及实现（keepalived）、WEB负载均衡服务器集群架构设计及实现LB(Nginx/LVS/HAProxy)、MyCAT读写分离、非关系型数据库NoSQL(Memcache/Redis/MongoDB)、JAVA项目架构设计实战（LNTM架构）、存储（NAS/SAN/GlusterFS/Ceph)、配置自动化（Ansible/SaltStack）、企业级监控平台（Zabbix/Prometheus）、企业级日志分析（ELK/Kafka)、CI/CD（Git、Gitlab、Jenkins）、运维安全（SSL与CA认证/防火墙/ VPN/JumpServer与Teleport跳板机）
+		</view> 
+		<!-- 第四 -->
+		<view class="content1" wx:if="{{TopIndex == 3}}">
+			KVM虚拟化、公有云运维（阿里云[ECS/RDS/SLB/CDN/OSS/NFS]）、私有云运维之OpenStack平台、Docker容器技术、Kubernetes(K8S)容器编排工具、综合案例
+		</view>
+		<!-- 第五 -->
+		<view class="content1" wx:if="{{TopIndex == 4}}">
+			HTML5、CSS3、Bootstrap、JavaScript/Ajax/jQuery、Python基础、Python高级、Django框架、综合项目
+		</view>
+	</view>
+	<!-- 更多 --> 
+	<view class="more">
+		<view class="more_tit">更多培训课程</view>
+		<view class="btn">
+			<view bindtap="web">web前端</view>
+			<view bindtap="c">C/C++</view>
+			<view bindtap="ui">UI</view>
+			<view bindtap="php">PHP</view>
+			<view bindtap="android">Android</view>
+			<view class="btn_active">Linux 运维</view>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,155 @@
+<view class="bdy">
+	<image src="../../images/banner_web.jpg" class="img"></image>
+	<view class="web_a">
+		<image src="../../images/hd_icon1.png"></image>
+		<view class="web_txt">
+			<view>从PC到移动</view>
+			<view>屏幕上呈现的一切都由前端实现</view>
+		</view>
+		<image src="../../images/hd_icon2.png"></image>
+	</view>
+	<view class="ig">
+		<image src="../../images/box1_img1.jpg"></image>
+		<!-- cloud://ssy-pe58p.7373-ssy-pe58p-1302805984/chengpin/img/box7_img6.jpg -->
+		<image src="cloud://ssy-pe58p.7373-ssy-pe58p-1302805984/chengpin/img/box1_img2.jpg" style="height:36vh"></image>
+	</view>
+	<!-- 项目 -->
+	<view>
+		<view class="web_a">
+			<image src="../../images/hd_icon1.png"></image>
+			<view class="web_txt">
+				<view>超长项目实战</view>
+				<view>覆盖6大就业热门项目</view>
+			</view>
+			<image src="../../images/hd_icon2.png"></image>
+		</view>
+		<view class="btns">
+			<view class="one {{TopIndex == 0 ? 'active':''}}" data-index="0" bindtap="click">电 商</view>
+			<view class="two {{TopIndex == 1 ? 'active':''}}" data-index="1" bindtap="click">教 育</view>
+			<view class="there {{TopIndex == 2 ? 'active':''}}" data-index="2" bindtap="click">社 交</view>
+			<view class="for {{TopIndex == 3 ? 'active':''}}" data-index="3" bindtap="click">旅 游</view>
+			<view class="five {{TopIndex == 4 ? 'active':''}}" data-index="4" bindtap="click">租 房</view>
+			<view class="six {{TopIndex == 5 ? 'active':''}}" data-index="5" bindtap="click">新闻 头条</view>
+		</view>
+		<!-- 第一 -->
+		<view class="content1" wx:if="{{TopIndex == 0}}">
+			<image src="cloud://ssy-pe58p.7373-ssy-pe58p-1302805984/chengpin/img/box7_img1.jpg"></image>
+			<view class="tit">项目介绍</view>
+			<view class="text">
+				该项目属于B2C电商平台，类似于京东、天猫，用户可通过平台轻松完成注册登录、搜索商品、查看商品明细、加入购物车、提交订单、订单支付等完整的购物流程。
+			</view>
+		</view>
+		<!-- 第二 -->
+		<view class="content1" wx:if="{{TopIndex == 1}}">
+			<image src="cloud://ssy-pe58p.7373-ssy-pe58p-1302805984/chengpin/img/box7_img2.jpg"></image>
+			<view class="tit">项目介绍</view>
+			<view class="text">
+				该项目是一个在线教育平台，用户可以在线选课，购买课程，在线交流等。项目整体基于 React 技术架构，学习完该项目基本能掌握 React 核心技术架构体系。
+			</view>
+		</view>
+		<!-- 第三 -->
+		<view class="content1" wx:if="{{TopIndex == 2}}">
+			<image src="cloud://ssy-pe58p.7373-ssy-pe58p-1302805984/chengpin/img/box7_img3.jpg"></image>
+			<view class="tit">项目介绍</view>
+			<view class="text">
+				十次方社交平台像是一个程序员社交网络，项目采用前后端分离架构，前端采用了以Node为驱动的中间渲染层解决方案，学习完该项目基本能掌握该方式的技术解决方案模型。
+			</view>
+		</view>
+		<!-- 第四 -->
+		<view class="content1" wx:if="{{TopIndex == 3}}">
+			<image src="cloud://ssy-pe58p.7373-ssy-pe58p-1302805984/chengpin/img/box7_img4.jpg"></image>
+			<view class="tit">项目介绍</view>
+			<view class="text">
+				该项目是一个类似于马蜂窝的在线旅游平台，用户可以在线查询目的地旅游信息，分享旅游攻略，在线下单等。该项目整体基于React Gatsby+无服务端架构模型，学习该项目可以掌握另一种新型的技术架构模型。
+			</view>
+		</view>
+		<!-- 第五 -->
+		<view class="content1" wx:if="{{TopIndex == 4}}">
+			<image src="cloud://ssy-pe58p.7373-ssy-pe58p-1302805984/chengpin/img/box7_img5.jpg"></image>
+			<view class="tit">项目介绍</view>
+			<view class="text">
+				该项目是一个类似于我爱我家、自如有家的租房App，用户可以在平台中浏览租房信息，预约看房，在线支付租房订单等。
+			</view>
+		</view>
+		<!-- 第六 -->
+		<view class="content1" wx:if="{{TopIndex == 5}}">
+			<image src="cloud://ssy-pe58p.7373-ssy-pe58p-1302805984/chengpin/img/box7_img6.jpg"></image>
+			<view class="tit">项目介绍</view>
+			<view class="text">
+				该项目是一款类似于今日头条的资讯类应用，汇集娱乐资讯的用户移动终端产品，包含用户发表文章的阅读，其中包含文章的刷新推荐、详情阅读、评论文章、点赞、用户频道的个性化、查看用户的个人信息、编辑用户的个人基础信息，以及小智机器人等客户端功能。
+			</view>
+		</view>
+	</view>
+	<!-- 提升 -->
+	<view class="tisheng">
+		<view class="web_a">
+			<image src="../../images/hd_icon1.png"></image>
+			<view class="web_txt">
+				<view>除了丰富的项目经验</view>
+				<view>理论课提升技能</view>
+			</view>
+			<image src="../../images/hd_icon2.png"></image>
+		</view>
+		<view class="titles">科学配比，针对性提升6大进阶技能</view>
+		<view>
+			<view class="tisheng_btns">
+				<view class="one {{TopIndexs == 0 ? 'actives':''}}" data-indexs="0" bindtap="clicktwo">基础进阶</view>
+				<view class="two {{TopIndexs == 1 ? 'actives':''}}" data-indexs="1" bindtap="clicktwo">框架与库进阶</view>
+				<view class="there {{TopIndexs == 2 ? 'actives':''}}" data-indexs="2" bindtap="clicktwo">前端工程优化</view>
+				<view class="for {{TopIndexs == 3 ? 'actives':''}}" data-indexs="3" bindtap="clicktwo">nodejs进阶</view>
+				<view class="five {{TopIndexs == 4 ? 'actives':''}}" data-indexs="4" bindtap="clicktwo">多端应用</view>
+				<view class="six {{TopIndexs == 5 ? 'actives':''}}" data-indexs="5" bindtap="clicktwo">算法与数据结构</view>
+			</view>
+			<view class="tex content1" wx:if="{{TopIndexs == 0}}">
+				<view>1.
+					从ES2015出发，深入剖析Map、Set、Async/Await等常用知识点，学习异步编程思想，更深层次感受Javascript的魅力。
+
+				</view>
+				<view>2. 学习Typescript，无论项目大小都可以使用Typescript进行书写，减少团队协作Bug，项目层次结构更清晰。</view>
+				<view>3. 学习浏览器原理及性能优化，从原理出发理解浏览器，从而优化页面，提升性能。</view>
+				<view>4. 讲解常见面试问题，补足面试黑洞。</view>
+				<view>5. 学习设计模式，主要涉及工厂、构造、单例等模式，补平知识短板。让代码更好的适应变化，提高程序的可维护性和可扩展性。</view>
+			</view>
+			<view class="tex content1" wx:if="{{TopIndexs == 1}}">
+				<view>1. 介绍主流的React和Vue的底层实现原理、进阶技术、数据管理和性能优化，动手开发Modal、Menu等常规组件。</view>
+				<view>2. 学习框架本身的设计原理。从源码层面了解先进开发框架设计，从原理层面剖析前端框架的架构设计，从开发与效率层面服务实际工作中的开发项目。</view>
+				<view>3. Vue的进阶使用。包括Mixin、directive、filter、及常用的slot。学习封装Vue模块与常用功能，是提升开发效率的必经之路。</view>
+				<view>4. React的进阶使用。包括Hooks、服务端渲染等，了解Hooks产生的前因后果，如何把组件的思想发挥到极致。</view>
+			</view>
+			<view class="tex content1" wx:if="{{TopIndexs == 2}}">
+				<view>1. webpack类的打包工具精讲。包括自动化工具完成打包、预编译和热开发调试的基础功能。</view>
+				<view>2. 介绍常用的CLI工具及原理。讲解常见的CLI工程化工具的使用，并且开发属于自己的CLI工具，做到对工程化更深层次的认知。</view>
+				<view>3. 项目的打包与发布。深入大型项目的应用层面，对持续集成、容器化、CI/CD工具的使用、自动化测试、文档管理等进行讲解。以实战项目作为最终目标，对等企业级需求。</view>
+				<view>4. 讲解版本控制、接口测试类工具、Mock数据及文档生成等。</view>
+			</view>
+			<view class="tex content1" wx:if="{{TopIndexs == 3}}">
+				<view>1. Nodejs扩展了前端无限的能力，让前端也可以向后台进军，操作数据库、读写文件、长链接（websocket）等让Nodejs拥有了后台语言的能力。</view>
+				<view>2. 学习常见的Nodejs API、网络和事件循环多进程。深入原理讲解Nodejs模块开发技巧。</view>
+				<view>3. 学习数据库，认识后台开发。学会“后台”开发人员的思维方式，可以和后台人员进行顺畅沟通。</view>
+				<view>4. 讲解丰富的网络相关的知识，如egg、auth2.0的快速开发技巧、发挥Nodejs异步编程的能力、BaaS接口标准的GraphQL介绍、GraphQL的核心概念与使用等。</view>
+				<view>5. Websocket 精讲。实现聊天功能、心跳检测、多聊天室、消息缓存等功能开发，封装消息应用核心功能库，学会原理的同时也能助力日常ws相关项目的开发。</view>
+			</view>
+			<view class="tex content1" wx:if="{{TopIndexs == 4}}">
+				<view>1. 讲解移动端混合开发解决方案，包含混合App框架Ionic入门、React Native实战项目和Flutter好客租房项目。</view>
+				<view>2. 讲解桌面端（跨端）领域前端方面的终极解决方案Electron，在满足日常开发性能需求的基础上，大幅度提升开发效率。</view>
+			</view>
+			<view class="tex content1" wx:if="{{TopIndexs == 5}}">
+				<view>1. 讲解基本的数据结构、常见的算法及设计思考，以及面试题。通过这几个维度的讲解，让学员理解算法在业务开发过程中的重要意义。</view>
+				<view>2. 进行核心算法实战，让学员掌握基本的开发技巧与应用能力。</view>
+			</view>
+		</view>
+	</view>
+	<!-- 更多 -->
+	<view class="more">
+		<view class="more_tit">更多培训课程</view>
+		<view class="btn">
+			<view bindtap="php">PHP</view>
+			<view bindtap="c">C/C++</view>
+			<view bindtap="ui">UI</view>
+			<view bindtap="linux">Linux运维</view>
+			<view bindtap="android">Android</view>
+			<view class="btn_active">web前端</view>
+		</view>
+	</view>
+	<!-- <button open-type="contact">165465</button> -->
+</view>

@@ -1,0 +1,146 @@
+/* pages/c++/c++.wxss */
+.img {
+  width: 100%;
+  height: 159px;
+}
+
+.title image {
+  width: 120rpx;
+  height: 30rpx;
+}
+
+.title {
+  display: flex;
+  justify-content: space-around;
+  padding: 4% 0;
+}
+
+.title view {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.box {
+  width: 90%;
+  margin: 3% auto;
+}
+
+.box_tit {
+  margin-top: 5%;
+}
+
+.box_tit view {
+  background: #3688ff;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 2% 3%;
+  box-sizing: border-box;
+}
+
+.box_tit image {
+  width: 100%;
+  padding-top: 5%;
+  display: block;
+}
+
+.btns button {
+  display: inline-block;
+}
+
+.content1 {
+  background: #eee;
+  width: 90%;
+  margin: 5% auto;
+  border-radius: 3px;
+  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
+  padding: 3% 1%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.content1 view {
+  width: 33%;
+  font-size: 28rpx;
+  color: #333;
+}
+
+.text view {
+  width: 50% !important;
+}
+
+.btns {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 90%;
+  margin: auto;
+}
+
+.btns view {
+  width: 25%;
+  margin: 3% 2% 0 0;
+  border: 1px solid #333;
+  padding: 1% 2%;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 3px;
+}
+.active{
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  padding: 1%;
+}
+
+.scroll_box {
+  width: 80%;
+  height: 46rpx;
+  overflow: hidden;
+  padding: 20rpx;
+  background: #fff;
+  white-space: nowrap;
+  margin: auto;
+}
+
+.item_list {
+  width: 160rpx;
+  height: auto;
+  margin-right: 23rpx;
+  display: inline-block;
+}
+.more{
+  /*
+  2 187 189
+  1 137 199
+  **/
+  background-image: linear-gradient(to right, rgb(2, 187, 189), rgb(1, 137, 199));
+  margin-top: 8%;
+  padding: 5% 0;
+}
+.more_tit{
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+.btn{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.btn view{
+  width: 30%;
+  border: 1px solid #fff;
+  padding: 2% 3%;
+  text-align: center;
+  border-radius: 23px;
+  margin-top: 5%;
+  color: #fff;
+}
+.btn_active{
+  background: #fff;
+  color: rgb(1,162,194) !important;
+}

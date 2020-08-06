@@ -1,0 +1,164 @@
+<view>
+	<image src="../../images/banner_c.jpg" class="img"></image>
+	<view class="title">
+		<image src="../../images/c++.png"></image>
+		<view>为什么学C/C++ ?</view>
+		<image src="../../images/c++.png"></image>
+	</view>
+	<view class="box">
+		<view class="box_tit">
+			<view>01 功能强大 为学习其它语言打下基础</view>
+			<image src="../../images/c++_b.jpg"></image>
+		</view>
+		<view class="box_tit">
+			<view>02 不可替代 语言地位十多年未被撼动</view>
+			<image src="../../images/box1_img3.jpg"></image>
+		</view>
+	</view>
+
+	<view>
+		<view class="title">
+			<image src="../../images/c++.png"></image>
+			<view>课 程</view>
+			<image src="../../images/c++.png"></image>
+		</view>
+		<!-- 564654654646 -->
+		<view class="scroll_box">
+			<scroll-view class="scroll-view_x" scroll-x style="width: auto;overflow:hidden;">
+				<view class="item_list">
+					<view class="one {{TopIndex == 0 ? 'active':''}}" data-index="0" bindtap="click">阶段一</view>
+				</view>
+				<view class="item_list">
+					<view class="two {{TopIndex == 1 ? 'active':''}}" data-index="1" bindtap="click">阶段二</view>
+				</view>
+				<view class="item_list">
+					<view class="two {{TopIndex == 2 ? 'active':''}}" data-index="2" bindtap="click">阶段三</view>
+				</view>
+				<view class="item_list">
+					<view class="two {{TopIndex == 3 ? 'active':''}}" data-index="3" bindtap="click">阶段四</view>
+				</view>
+				<view class="item_list">
+					<view class="two {{TopIndex == 4 ? 'active':''}}" data-index="4" bindtap="click">阶段五</view>
+				</view>
+				<view class="item_list">
+					<view class="two {{TopIndex == 5 ? 'active':''}}" data-index="5" bindtap="click">阶段六</view>
+				</view>
+				<view class="item_list">
+					<view class="two {{TopIndex == 6 ? 'active':''}}" data-index="6" bindtap="click">阶段七</view>
+				</view>
+				<view class="item_list">
+					<view class="two {{TopIndex == 7 ? 'active':''}}" data-index="7" bindtap="click">阶段八</view>
+				</view>
+				<view class="item_list">
+					<view class="two {{TopIndex == 8 ? 'active':''}}" data-index="8" bindtap="click">阶段九</view>
+				</view>
+				<view class="item_list">
+					<view class="two {{TopIndex == 9 ? 'active':''}}" data-index="9" bindtap="click">阶段十</view>
+				</view>
+			</scroll-view>
+		</view>
+		<view class="content1" wx:if="{{TopIndex == 0}}">
+			<view>1. C语言概述</view>
+			<view>2. 编程基础</view>
+			<view>3. 函数</view>
+			<view>4. 指针</view>
+			<view>5. 内存管理</view>
+			<view>6. 复合类型</view>
+			<view>7. 文件操作</view>
+			<view>8. 项目实战</view>
+		</view>
+		<view class="content1 text" wx:if="{{TopIndex == 1}}">
+			<view>1. 指针高级</view>
+			<view>2. 接口的封装和设计</view>
+			<view>3. 函数指针与回调函数</view>
+			<view>4. 数据结构与链表</view>
+			<view>5. 递归函数</view>
+			<view>6. 数据结构与算法</view>
+			<view>7. 内存分区、函数调用模型</view>
+		</view>
+		<view class="content1 text" wx:if="{{TopIndex == 2}}">
+			<view>1. C++对C的扩展、引用</view>
+			<view>2. 函数重载</view>
+			<view>3. 类和对象</view>
+			<view>4. 对象的动态分配和释放</view>
+			<view>5. 运算符重载</view>
+			<view>6. 类的继承和派生、多态</view>
+			<view>7. 面向抽象类编程</view>
+			<view>8. 函数模板、类模板</view>
+			<view>9. 异常、I/O流</view>
+			<view>10. STL</view>
+			<view>11. Qt常用的控件</view>
+			<view>12. Qt绘图与文件操作</view>
+			<view>13. Qt界面编程实战案例</view>
+		</view>
+		<view class="content1 text" wx:if="{{TopIndex == 3}}">
+			<view>1. Linux命令</view>
+			<view>2. Linux开发与调试工具</view>
+			<view>3. 系统I/O操作</view>
+			<view>4. 进程与IPC通信</view>
+			<view>5. 线程与并发同步</view>
+			<view>6. 信号</view>
+			<view>7. 网络协议与网络编程</view>
+			<view>8. 高并发服务器开发</view>
+			<view>9. Linux并发服务器项目实战</view>
+		</view>
+		<view class="content1 text" wx:if="{{TopIndex == 4}}">
+			<view>1. oracle</view>
+			<view>2. mysql</view>
+			<view>3. 企业财富库的接口的封装和设计</view>
+			<view>4. Windows经典应用程序开发</view>
+			<view>5. Linux经典应用程序开发</view>
+			<view>6. 跨平台兼容开发与调试</view>
+			<view>7. Git代码管理</view>
+			<view>8. 大项目：金融类安全传输平台</view>
+		</view>
+		<view class="content1 text" wx:if="{{TopIndex == 5}}">
+			<view>1. 游戏开发</view>
+			<view>2. 虚拟化Docker</view>
+			<view>3. 负载均衡反向代理</view>
+			<view>4. 深入理解nginx</view>
+			<view>5. 分布式文件存储服务器和缓存服务器</view>
+			<view>6. 大项目：分布式游戏服务器开发</view>
+		</view>
+		<view class="content1 text" wx:if="{{TopIndex == 6}}">
+			<view>1. Go语言语法</view>
+			<view>2. 掌握微服务开发</view>
+			<view>3. k8s</view>
+			<view>4. docker操作</view>
+			<view>5. 大项目：IHome微服务应用开发</view>
+			<view>6. k8s与微服务项目结合</view>
+		</view>
+		<view class="content1" wx:if="{{TopIndex == 7}}">
+			<view>1. Shell高级编程</view>
+			<view>2. 面试强化</view>
+		</view>
+		<view class="content1 text" wx:if="{{TopIndex == 8}}">
+			<view>1. DNS与路由Service</view>
+			<view>2. 负载均衡代理Service</view>
+			<view>3. 信息上报Service</view>
+			<view>4. 压力测试</view>
+			<view>5. 大项目：lars负载均衡系统</view>
+			<view>6. Reactor模式并发Service</view>
+		</view>
+		<view class="content1 text" wx:if="{{TopIndex == 9}}">
+			<view>1. Kali Linux操作系统实战</view>
+			<view>2. 网络防御技术</view>
+			<view>3. 网络攻击技术</view>
+			<view>4. 异常通信行为分析</view>
+			<view>5. 加密流量还原</view>
+			<view>6. 大项目：网络隐匿私有应用入侵检测系统</view>
+		</view>
+	</view>
+	<!-- 更多 -->
+	<view class="more">
+		<view class="more_tit">更多培训课程</view>
+		<view class="btn">
+			<view bindtap="web">web前端</view>
+			<view bindtap="ui">UI</view>
+			<view bindtap="php">PHP</view>
+			<view bindtap="linux">Linux运维</view>
+			<view bindtap="android">Android</view>
+			<view class="btn_active">C/C++</view>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,227 @@
+.img{
+  width: 100%;
+  height: 159px;
+}
+.title{
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  color: #3482ef;
+  margin: 4% 0;
+}
+.title .viw{
+  display: inline-block;
+  color:#333 !important;
+}
+.flx image{
+  width: 150rpx;
+  height: 95rpx;
+  padding-top: 4%;
+} 
+.flx{
+  display: flex;
+  justify-content: start;
+  margin:7% auto;
+  width: 90%;
+  box-shadow: 0 0 0.15rem rgba(52,130,239,0.39);
+  padding: 3% 2%;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.flx .flx_title{
+  font-weight: bold;
+  color: #333;
+  font-size: 30rpx;
+}
+.flx view{
+  padding-left: 3%;
+}
+.flx .fix_text{
+  font-size: 24rpx;
+  color: #666;
+  padding-top: 1%;
+}
+
+.bg_img{
+  /* height: 50vh; */
+  width: 100%;
+  background-image: url('https://7065-peng-z165z-1300240866.tcb.qcloud.la/chengpindongman/img/andbg1.jpg?sign=ee8cf5db1102f65713280d5c9bc7b458&t=1595667536');
+  background-size: 100% 100%;
+  box-sizing: border-box;
+  padding: 4% 0;
+}
+.title_g{
+  text-align: center;
+  font-size: 17px;
+  font-weight: bold;
+  color: #3482ef;
+  margin: 4% 0;
+  padding: 3% 0;
+}
+.title_g .viw{
+  display: inline-block;
+  color:#fff !important;
+}
+.banner1{
+  margin: auto;
+  border-radius: 5px;
+  background: #fff;
+  width:80%;
+  height:100%;
+  text-align: center;
+}
+.ig{
+  width: 120rpx;
+  height: 120rpx;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 999;
+}
+.banner1_tit{
+  padding-top: 10%;
+  font-weight: bold;
+}
+.banner1_txt{
+  font-size: 25rpx;
+  color: #666;
+  width: 80%;
+  margin: auto;
+  padding-top: 5%;
+}
+.txt_tit{
+  color: #666;
+  font-size: 22rpx;
+  text-align: center;
+  margin-bottom: 3%;
+}
+.title_a{
+  font-size: 19px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  padding: 3% 0;
+}
+.and>image{
+  width: 100%;
+  height: 300rpx;
+}
+.ig_flx{
+  display: flex;
+  justify-content: space-around;
+}
+.ig_flx image{
+  width: 90rpx;
+  height: 90rpx;
+}
+.ig_flx .igtxt{
+  font-size: 24rpx;
+  text-align: center;
+}
+
+.item_tit,.title_b {
+  color: #c64600;
+  font-weight: bold;
+  text-align: center;
+}
+.title_b{
+  padding-bottom: 3%;
+  font-size: 17px;
+}
+.item_tit{
+  padding: 7% 0 5% 0;
+  font-size: 15px;
+}
+.scroll_box {
+  width: 100%;
+  height: 500rpx;
+  overflow: hidden;
+  padding: 20rpx;
+  background: #fff;
+  white-space: nowrap;
+  margin:10% auto 0 auto;
+  box-sizing: border-box;
+}
+
+.item_list {
+  width: 340rpx;
+  height: 350rpx;
+  display: inline-block;
+  background-image: url('https://7065-peng-z165z-1300240866.tcb.qcloud.la/chengpindongman/img/andd.png?sign=b859d6041c548ffd9875ceb7663f8213&t=1595925207');
+  background-size: 100% 100%;
+  box-sizing: border-box;
+  padding-top: 9%;
+  position: relative;
+  margin-left: 3%;
+}
+.number {
+  position: absolute;
+  top: 7%;
+  left: 9%;
+  color: #333;
+}
+.item_txt{
+  color: #c64600;
+  font-size: 24rpx;
+  padding-left: 3%;
+}
+.item_txt view{
+  margin-top: 3%;
+}
+
+swiper{
+  margin-top: 50rpx;
+}
+ 
+.slide-image {
+  width: 100%;
+  height: 100%;
+}
+ 
+.zoom-out {
+  transform: scale(0.8);
+  transition: all 0.7s ease-out 0s;
+}
+ 
+.zoom-in {
+  transform: scale(1);
+  transition: all 0.7s ease-in 0s;
+}
+block image{
+  border-radius: 5px;
+}
+
+
+.more{
+  /*
+  2 187 189
+  1 137 199
+  **/
+  background-image: linear-gradient(to right, rgb(2, 187, 189), rgb(1, 137, 199));
+  margin-top: 8%;
+  padding: 5% 0;
+}
+.more_tit{
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+}
+.btn{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.btn view{
+  width: 30%;
+  border: 1px solid #fff;
+  padding: 2% 3%;
+  text-align: center;
+  border-radius: 23px;
+  margin-top: 5%;
+  color: #fff;
+}
+.btn_active{
+  background: #fff;
+  color: rgb(1,162,194) !important;
+}

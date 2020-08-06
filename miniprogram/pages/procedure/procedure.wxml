@@ -1,0 +1,45 @@
+<view>
+	<image class="img" src="../../images/baoming1.jpg"></image>
+	<view class="text">
+		<view class="title">交纳定金</view>
+		<view class="text_t">
+			和咨询老师确认预报名信息，确定就读班级后，会为您生成专属的微信或支付宝支付链接用于支付报名占座费。基础班报名占座费200元；直接报名就业班报名占座费500元，此费用作为座位预订金，该座位预订金会抵扣您的总学费。
+		</view>
+		<view class="hint">
+			<view class="text_t" style="text-indent:12px">
+				<view class="viw xing">*</view> 特别提示：如果您在交纳报名费用后不打算参加学习了，请在开课日的前 <view class="viw">7</view> 天通知我们，我们将全额退还您的报名费。
+			</view> 
+			<view class="text_t">
+				距离开课<view class="viw"> 7 </view>天内（包括<view class="viw"> 7 </view>天），您不打算参加学习，我们将不予退还报名费用。
+			</view>
+		</view> 
+		<view class="title">
+			确认汇款
+		</view>
+		<view class="text_t">
+			请将您的汇款情况告知咨询老师（主要包括汇款人姓名、所报班级、汇款金额、汇出银行、汇入银行、汇款时间等），咨询老师
+		</view>
+		<view class="text_t">
+			在确认收到汇款后会及时跟您确认座位预订成功
+		</view>
+		<view class="title">来校报到</view>
+		<view class="text_t">
+			所有学员须在开课前1天之前来学校报到，报到时须携带身份证原件，填写学籍卡，签订学员守则。
+		</view>
+		<view class="text_t">
+			要安排住宿的外地学员请在开课三天之前到学校（注：节假日除外）并在买好车票告知咨询老师，以便我们提前安排工作人员为您安排住宿。
+		</view>
+		<view class="title">补齐学费</view>
+		<view class="text_t">
+			为了不影响您的正常上课，所有学员须在开课前一周，从以下两种交费方式中任选一种，补齐所有学费。
+		</view>
+		<view class="text_t">
+			1、现金交纳：您可以到我们的培训中心所在地亲自交纳。
+		</view>
+		<view class="text_t">
+			2、银行汇款：您可以通过银行汇款或者网银转账的方式补齐学费（参见第二步中的汇款帐号）
+		</view>
+	</view>
+	<!-- <button id="tapTest" data-hi="Wegame" bindtap="tapName">Click me</button> -->
+	<view style="width:100%;height:5vh"></view>
+</view>

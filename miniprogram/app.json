@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/specialty/specialty",
+    "pages/address/address",
+    "pages/summary/summary",
+    "pages/procedure/procedure",
+    "pages/ui/ui",
+    "pages/web/web",
+    "pages/php/php",
+    "pages/linux/linux",
+    "pages/android/android",
+    "pages/c++/c++"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "诚品动漫培训",
+    "navigationBarTextStyle": "black" 
+  },
+  "tabBar": {
+    "color": "#000",
+    "selectedColor": "#d81e06",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index_b.png"
+      },
+      {
+        "pagePath": "pages/specialty/specialty",
+        "text": "专业",
+        "iconPath": "images/specialty.png",
+        "selectedIconPath": "images/specialty_b.png"
+      },
+      {
+        "pagePath": "pages/address/address",
+        "text": "来校路线",
+        "iconPath": "images/address.png",
+        "selectedIconPath": "images/address_b.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}

@@ -1,0 +1,215 @@
+.title image {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.u-img-slide {
+  width: 100%;
+  height: 320rpx;
+}
+
+.title {
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .1);
+  padding: 2% 0;
+}
+
+.title .txt {
+  font-size: 28rpx;
+  text-align: center;
+}
+
+.specialty_title,
+.school_title,
+.superiority_title,
+.ensure_title {
+  text-align: center;
+  margin-top: 4%;
+}
+
+.specialty_title .specialty_titlea,
+.school_title .school_titlea,
+.superiority_title .superiority_titlea,
+.ensure_title .ensure_titlea {
+  color: #d81e06;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.specialty_title .specialty_titleb,
+.school_title .school_titleb,
+.superiority_title .superiority_titleb,
+.ensure_title .ensure_titleb {
+  font-size: 14px;
+  color: #d81e06;
+  margin-top: 2%;
+}
+
+.specialty_title .specialty_titlec,
+.school_title .school_titlec,
+.superiority_title .superiority_titlec,
+.ensure_title .ensure_titlec {
+  font-size: 12px;
+  color: gray;
+  margin-top: 1%;
+}
+
+.picture {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.picture image {
+  width: 40%;
+  height: 200rpx;
+  margin-top: 2%;
+}
+
+.school {
+  padding: 3% 0;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .1);
+}
+
+.box_sing {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .1);
+  padding: 2% 0;
+}
+
+.superiority .box {
+  width: 45%;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 2%;
+  text-align: center;
+  padding: 2% 0;
+}
+
+.superiority .box image {
+  width: 130rpx;
+  height: 130rpx;
+}
+
+.superiority .box .text {
+  font-size: 23rpx;
+}
+
+.ensure {
+  box-shadow: 2px 2px 5px 2px rgba(0, 0, 0, .1);
+  padding-bottom: 2%;
+}
+
+.sing_box {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.sing_box .sing {
+  width: 45%;
+  border: 1px dashed red;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 10%;
+  text-align: center;
+  padding: 10% 2%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.sing_box .sing image {
+  width: 80rpx;
+  height: 80rpx;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+}
+
+.sing_txt {
+  font-size: 20rpx;
+  margin-top: 2%;
+}
+
+.sing_title {
+  color: red;
+  font-size: 26rpx;
+}
+
+.phone {
+  position: fixed;
+  top: 80%;
+  right: 3%;
+  border: 1px solid gray;
+  border-radius: 50%;
+  padding: 1%;
+  background-color: #fff;
+}
+
+.phone image {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.footer {
+  width: 100%;
+  height: 18vh;
+  display: flex;
+  justify-content: start;
+}
+
+.footer>image {
+  width: 180rpx;
+  height: 180rpx;
+  border-right: 1px solid #333;
+  padding: 0 3%;
+}
+
+.phone_b image {
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: middle;
+}
+
+.weixin image {
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: middle;
+}
+
+.dizhi {
+  font-size: 26rpx;
+}
+
+.right {
+  margin-top: 2%;
+  padding-left: 2%;
+}
+
+.vz {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.vz image {
+  width: 45%;
+  height: 130rpx;
+  display: block;
+  margin-top: 3%;
+}
+
+.viw {
+  display: inline-block;
+  font-size: 17rpx;
+  width: 6%;
+  border: 1px solid #666;
+  border-radius: 3px;
+  color: #666;
+}

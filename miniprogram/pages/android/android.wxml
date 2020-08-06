@@ -1,0 +1,157 @@
+<view>
+	<image src="../../images/banner_android.jpg" class="img"></image>
+	<view>
+		<view class="title">
+			<view class="viw">诚品教育</view>
+			看的见的实力
+		</view>
+		<view>
+			<view class="flx">
+				<image src="../../images/and1_1.png"></image>
+				<view>
+					<view class="flx_title">更真实的项目演练</view>
+					<view class="fix_text">案例式教学，通俗易懂，项目经理一对一辅导强化训练，学与练交叉进行强化记忆</view>
+				</view>
+			</view>
+			<view class="flx">
+				<image src="../../images/and1_2.png"></image>
+				<view>
+					<view class="flx_title">更严谨的全日制教学</view>
+					<view class="fix_text">完整的课程更新链条，专门的课程研发团队，依托于一线软件企业真实热门项目</view>
+				</view>
+			</view>
+			<view class="flx">
+				<image src="../../images/and1_3.png"></image>
+				<view>
+					<view class="flx_title">更贴近企业招聘需求</view>
+					<view class="fix_text">专注于新技术和新课程，能及时保证课程的质量和先进性。保障团队与每位学员都随时沟通</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	<!-- 区域二 -->
+	<view class="bg_img">
+		<view class="title_g">
+			<view class="viw">为什么选择</view>
+			Android
+		</view>
+		<!-- 轮播 -->
+		<swiper class='u-wrp-bnr' indicator-dots='true' autoplay='true' interval='5000' duration='1000' circular='true'>
+			<block>
+				<swiper-item>
+					<view class="banner1">
+						<image src="cloud://ssy-pe58p.7373-ssy-pe58p-1302805984/chengpin/img/and2_1.png" class="ig"></image>
+						<view class="banner1_tit"> Android手机6.20亿手机网民 </view>
+						<view class="banner1_txt">CNNIC《报告》内容显示，截至2015年12月，我国手机网民规模达6.20亿，有90.1%的网民通过手机上网。</view>
+					</view>
+				</swiper-item>
+				<swiper-item>
+					<view class="banner1">
+						<image src="cloud://ssy-pe58p.7373-ssy-pe58p-1302805984/chengpin/img/and2_1.png" class="ig"></image>
+						<view class="banner1_tit"> Android岗位30万人才需求 </view>
+						<view class="banner1_txt">据网络数据显示，目前国内的3G研发人才缺口有三、四百万，其中Android研发人才缺口至少30万。</view>
+					</view>
+				</swiper-item>
+				<swiper-item>
+					<view class="banner1">
+						<image src="cloud://ssy-pe58p.7373-ssy-pe58p-1302805984/chengpin/img/and2_1.png" class="ig"></image>
+						<view class="banner1_tit"> Android手机市场占比87.5% </view>
+						<view class="banner1_txt">根据Strategy AnalyTIcs的数据，最近季度全球智能手机出货量为3.75亿部，其中的87.5%是Android手机，这一比例高于去年同期的84%，创下历史记录。</view>
+					</view>
+				</swiper-item>
+			</block>
+		</swiper>
+	</view>
+	<view>
+		<view class="title_a">就业起薪高 发展潜力大</view>
+		<view class="txt_tit">选择了安卓，就等于选择了远大前程</view>
+		<view class="and">
+			<image src="../../images/andimg3.jpg"></image>
+			<view class="ig_flx">
+				<view>
+					<image src="../../images/pic1_2.png"></image>
+					<view class="igtxt">初涉职场</view>
+				</view>
+				<view>
+					<image src="../../images/pic1_5.png"></image>
+					<view class="igtxt">展露锋芒</view>
+				</view>
+				<view>
+					<image src="../../images/pic1_3.png"></image>
+					<view class="igtxt">高级专家</view>
+				</view>
+				<view>
+					<image src="../../images/pic1_4.png"></image>
+					<view class="igtxt">资深达人</view>
+				</view>
+			</view>
+		</view>
+	</view>
+	<!-- 课程体系 -->
+	<view class="scroll_box">
+		<view class="title_b">诚品动漫课程体系</view>
+		<scroll-view class="scroll-view_x" scroll-x style="width: auto;overflow:hidden;">
+			<view class="item_list" style="margin:0">
+				<view class="number">01</view>
+				<view class="item_tit">Android基础</view>
+				<view class="item_txt">
+					<view>java基础语法</view>
+					<view>java面向对象</view>
+					<view>java常用工具类</view>
+				</view>
+			</view>
+			<view class="item_list">
+				<view class="number">02</view>
+				<view class="item_tit">网络操作</view>
+				<view class="item_txt">
+					<view>网络操作与通信</view>
+					<view>高级控件</view>
+					<view>数据库存储</view>
+				</view>
+			</view>
+			<view class="item_list">
+				<view class="number">03</view>
+				<view class="item_tit">框架与UI组件</view>
+				<view class="item_txt">
+					<view>流行框架</view>
+					<view>UI基础</view>
+					<view>UI常用组件</view>
+				</view>
+			</view>
+			<view class="item_list">
+				<view class="number">04</view>
+				<view class="item_tit">高级应用与Kotlin</view>
+				<view class="item_txt">
+					<view>Android高级应用</view>
+					<view>Android动画与自定义View</view>
+					<view>Kotlin语言</view>
+				</view>
+			</view>
+		</scroll-view>
+	</view>
+	<!-- 项目 -->
+	<view>
+		<view class="title">项目案例</view>
+		<view>
+			<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" previous-margin="{{previousMargin}}" next-margin="{{nextMargin}}" circular="{{circular}}" bindchange="swiperBindchange">
+				<block>
+					<swiper-item wx:for="{{imgUrls}}" wx:key="key">
+						<image src="{{item}}" class="slide-image {{currentSwiperIndex == index ? 'zoom-in' : 'zoom-out'}}"/>
+					</swiper-item>
+				</block>
+			</swiper>
+		</view>
+	</view>
+	<!-- 更多 -->
+	<view class="more">
+		<view class="more_tit">更多培训课程</view>
+		<view class="btn">
+			<view bindtap="web">web前端</view>
+			<view bindtap="c">C/C++</view>
+			<view bindtap="ui">UI</view>
+			<view bindtap="linux">Linux运维</view>
+			<view bindtap="php">PHP</view>
+			<view class="btn_active">Android</view>
+		</view>
+	</view>
+</view>

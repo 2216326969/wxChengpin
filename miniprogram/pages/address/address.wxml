@@ -1,0 +1,20 @@
+<view>
+	<map style="width:100vw; height:50vh;" longitude="{{longitude}}" latitude=" {{latitude}}" markers="{{markers}}"></map>
+	<view class="title"> 来校参观 乘车指南 </view>
+	<view class="text">
+		<view>
+      <image src="../../images/bus.png"></image> 
+      <view class="viw">公交站</view>
+      <view class="route">
+        1. 长葛北站 -> 长葛10路 -> 长葛7路
+      </view>
+      <view class="route">
+        2. 长葛站 -> 长葛102路 -> 长葛7路  
+      </view>
+      <view class="routes">
+        <image src="../../images/di.png"></image>
+        河南省长葛市空港电子商务产业园
+      </view>
+    </view>
+	</view>
+</view>

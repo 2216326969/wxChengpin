@@ -1,0 +1,34 @@
+.flx {
+  display: flex;
+  justify-content: space-around;
+  margin: 5% auto;
+  width: 95%;
+}
+
+.flx image {
+  width: 35%;
+  height: 150rpx;
+}
+
+.flx .box {
+  width: 45%;
+}
+
+.flx .title {
+  border-bottom: 1px solid gray;
+  padding-bottom: 3%;
+  color: #333;
+}
+
+.viw {
+  display: inline-block;
+  color: #666;
+  font-weight: bold;
+
+}
+
+.box .text {
+  font-size: 23rpx;
+  margin-top: 2%;
+  color: #999;
+}

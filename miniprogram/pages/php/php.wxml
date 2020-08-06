@@ -1,0 +1,114 @@
+<view>
+	<image src="../../images/banner_php.jpg" class="img"></image>
+	<view class="title_a">这是一门集合多位BAT资深PHP功程师十几年经验的课程</view>
+	<view>
+		<view class="flx">
+			<image src="../../images/enlist.png"></image>
+			<view>
+				<view class="flx_title">入学门槛低</view>
+				<view class="fix_text">在C/C++、JAVA、PHP、ASP等这些语言中，PHP是容易学的语言</view>
+			</view>
+		</view>
+		<view class="flx">
+			<image src="../../images/enlist.png"></image>
+			<view>
+				<view class="flx_title">行业竞争小</view>
+				<view class="fix_text">PHP发展迅速，大学里基本未开设PHP课程，有实力的培训机构很少，PHP程序员稀缺</view>
+			</view>
+		</view>
+		<view class="flx">
+			<image src="../../images/enlist.png"></image>
+			<view>
+				<view class="flx_title">社会需求大</view>
+				<view class="fix_text">百度、新浪、搜狐、淘宝等等大部分的互联网相关企业都在使用PHP，对PHP人才需求旺盛</view>
+			</view>
+		</view>
+	</view>
+	<!-- 课程 -->
+	<view class="scroll_box">
+		<view class="title_b">诚品动漫课程体系</view>
+		<scroll-view class="scroll-view_x" scroll-x style="width: auto;overflow:hidden;">
+			<view class="item_list" style="margin:0">
+				<view class="number">01</view>
+				<view class="item_tit">PHP基础</view>
+				<view class="item_txt">
+					<view>PHP环境配置</view>
+					<view>PHP语法、函数</view>
+					<view>WEB组件、服务器</view>
+				</view>
+			</view>
+			<view class="item_list">
+				<view class="number">02</view>
+				<view class="item_tit">前端交互</view>
+				<view class="item_txt">
+					<view>JavaScript语言</view>
+					<view>jQuery</view>
+					<view>原生JavaScript交互效果开发</view>
+				</view>
+			</view>
+			<view class="item_list">
+				<view class="number">03</view>
+				<view class="item_tit">PC端全栈项目开发</view>
+				<view class="item_txt">
+					<view>PHP高级+MySQL、Ajax</view>
+					<view>Bootstrap</view>
+					<view>PHPCMS二次开发</view>
+				</view>
+			</view>
+			<view class="item_list">
+				<view class="number">04</view>
+				<view class="item_tit">移动端webAPP开发</view>
+				<view class="item_txt">
+					<view>HTML5+CSS3</view>
+					<view>node</view>
+					<view>移动框架</view>
+				</view>
+			</view>
+			<view class="item_list">
+				<view class="number">05</view>
+				<view class="item_tit">大型项目框架</view>
+				<view class="item_txt">
+					<view>ThinkPHP、Laravel框架</view>
+					<view>Git、SVN</view>
+					<view>Linux操作系统</view>
+				</view>
+			</view>
+		</scroll-view>
+	</view>
+
+	<view class="title ke_tit">课程项目</view>
+	<view class="hezi">
+		<view class="box">
+			<image src="../../images/php/php_a.jpg"></image>
+			<view class="clr"></view>
+			<view>健康管理系统</view>
+		</view>
+		<view class="box">
+			<image src="../../images/php/php_b.jpg"></image>
+			<view class="clr"></view>
+			<view>物流管理系统</view>
+		</view>
+		<view class="box">
+			<image src="../../images/and_card3.jpg"></image>
+			<view class="clr"></view>
+			<view>商城APP</view>
+		</view>
+		<view class="box">
+			<image src="../../images/php/php_d.jpg"></image>
+			<view class="clr"></view>
+			<view>企业管理系统</view>
+		</view>
+	</view>
+	<!-- 更多 -->
+	<view class="more">
+		<view class="more_tit">更多培训课程</view>
+		<view class="btn">
+			<view bindtap="web">web前端</view>
+			<view bindtap="c">C/C++</view>
+			<view bindtap="ui">UI</view>
+			<view bindtap="linux">Linux运维</view>
+			<view bindtap="android">Android</view>
+			<view class="btn_active">PHP</view>
+		</view>
+	</view>
+</view>

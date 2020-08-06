@@ -1,0 +1,38 @@
+.title{
+  text-align: center;
+  background-color: orangered;
+  padding: 2% ;
+  width: 45%;
+  margin:4% auto;
+  color: #fff;
+  border-radius: 3px;
+}
+map{
+  border: 1px solid gray;
+}
+.text image{
+  width: 50rpx;
+  height: 50rpx;
+  vertical-align: middle;
+}
+.text>view{
+  width: 90%;
+  background-color: #eee;
+  margin:auto;
+  padding: 3% 2%;
+}
+.viw{
+  display: inline-block;
+}
+.route{
+  margin-top: 3%;
+}
+.routes{
+  margin-top: 4%;
+  text-align: center;
+  font-size: 24rpx;
+}
+.routes image{
+  width: 50rpx;
+  height: 50rpx;
+}

@@ -1,0 +1,149 @@
+<view style="background:#fff">
+	<swiper class='u-wrp-bnr' indicator-dots='true' autoplay='true' interval='5000' duration='1000' circular='true'>
+		<block wx:for="{{bnrUrl}}" wx:key="key" wx:for-index="index">
+			<swiper-item>
+				<image src='{{item.url}}' class='u-img-slide' mode='aspectFill'></image>
+			</swiper-item>
+		</block>
+	</swiper>
+	<view class="title">
+		<view bindtap="summary">
+			<image src="../../images/school.png"></image>
+			<view class="txt">公司简介</view>
+		</view>
+		<view bindtap="procedure">
+			<image src="../../images/enlist.png"></image>
+			<view class="txt">报名流程</view>
+		</view>
+		<view bindtap="address">
+			<image src="../../images/di.png"></image>
+			<view class="txt">来校路线</view>
+		</view>
+	</view>
+	<!-- 专业 -->
+	<view class="specialty">
+		<view class="specialty_title">
+			<view class="specialty_titlea">
+				<view class="viw">热门专业</view>	专业
+			</view>
+			<view class="specialty_titleb">热门高薪专业 你成功的首选</view>
+			<view class="specialty_titlec">0基础学IT 高新一步到位</view>
+		</view>
+		<view class="vz">
+			<image src="../../images/adn1.png"></image>
+			<image src="../../images/ui1.png"></image>
+			<image src="../../images/web1.png"></image>
+			<image src="../../images/php1.png"></image>
+			<image src="../../images/c1.png"></image>
+			<image src="../../images/linux1.png"></image>
+		</view>
+	</view>
+	<!-- 学校环境 -->
+	<view class="school">
+		<view class="school_title">
+			<view class="school_titlea">
+				<view class="viw">学校环境</view>		环境
+			</view>
+			<view class="school_titleb">企业职场氛围 全程项目实训</view>
+			<view class="school_titlec">项目研发中心 一体机项目教学</view>
+		</view>
+		<view class="picture">
+			<image src="../../images/1.jpg"></image>
+			<image src="../../images/2.jpg"></image>
+			<image src="../../images/3.jpg"></image>
+			<image src="../../images/5.jpg"></image>
+		</view>
+	</view>
+	<!-- 优势 -->
+	<view class="superiority">
+		<view class="superiority_title">
+			<view class="superiority_titlea">
+				<view class="viw">学校优势</view>		优势
+			</view>
+			<view class="superiority_titleb">掌握DT技术 就业有保障</view>
+			<view class="superiority_titlec">毕业就上岗 等你挑工资</view>
+		</view>
+		<view class="box_sing">
+			<view class="box">
+				<view>
+					<image src="../../images/icon1.png"></image>
+					<view>名企共建</view>
+				</view>
+				<view class="text">名企标准， 共建课程； 订单培养， 直通名企</view>
+			</view>
+			<view class="box">
+				<view>
+					<image src="../../images/icon4.png"></image>
+					<view>轻松入学</view>
+				</view>
+				<view class="text">入学零负担，就业在付费，分期更轻松，经济无压力</view>
+			</view>
+			<view class="box">
+				<view>
+					<image src="../../images/icon2.png"></image>
+					<view>全程实训</view>
+				</view>
+				<view class="text">理实一体教学，人才分级培优，企业职场氛围，全程项目实训</view>
+			</view>
+			<view class="box">
+				<view>
+					<image src="../../images/icon3.png"></image>
+					<view>项目实战</view>
+				</view>
+				<view class="text">学习即实战，工学相结合，即学即所用，就业零距离</view>
+			</view>
+		</view>
+	</view>
+	<!-- 保障 -->
+	<view class="ensure">
+		<view class="ensure_title">
+			<view class="ensure_titlea">
+				<view class="viw">实训技能</view>		保障
+			</view>
+			<view class="ensure_titleb">与多家企业达成人才共建的协议</view>
+			<view class="ensure_titlec">为学员提供广阔的就业选择</view>
+		</view>
+		<view class="sing_box">
+			<view class="sing">
+				<image src="../../images/xuexi.png"></image>
+				<view class="sing_title">学习形式</view>
+				<view class="sing_txt">小班教学 名师跟踪辅导</view>
+			</view>
+			<view class="sing">
+				<image src="../../images/jiaxue.png"></image>
+				<view class="sing_title">教学模式</view>
+				<view class="sing_txt">名师面授+全程项目实战</view>
+			</view>
+			<view class="sing">
+				<image src="../../images/jiaoyu.png"></image>
+				<view class="sing_title">教学方法</view>
+				<view class="sing_txt">讲解+练习+辅导+考试+实习</view>
+			</view>
+			<view class="sing">
+				<image src="../../images/shu.png"></image>
+				<view class="sing_title">科学的HXTA实训体系</view>
+				<view class="sing_txt">技能成长体系+职业素质提升体系+企业化培训管理体系</view>
+			</view>
+		</view>
+	</view>
+	<view style="width:100%;height:5vh"></view>
+	<!-- 电话 -->
+	<view class='footer_list2 phone' data-id='4' catchtap='freeTell' data-current="4" bindtap="chooseImg">
+		<image src="../../images/phone.png"></image>
+	</view>
+	<!-- 尾部 -->
+	<view class="footer">
+		<image src="../../images/wx_h_03.png"></image>
+		<view class="right">
+			<view class="phone_b">
+				<image src="../../images/phone_b.png"></image> 0374-6837666
+			</view>
+			<view class="weixin">
+				<image src="../../images/weixin.png"></image> 155 3975 0130
+			</view>
+			<view class="dizhi">
+				河南省长葛市空港电子商务产业园
+			</view>
+		</view>
+	</view>
+</view>

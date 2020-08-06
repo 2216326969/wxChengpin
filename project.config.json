@@ -1,0 +1,137 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"enhance": true,
+		"postcss": true,
+		"preloadBackgroundData": false,
+		"minified": true,
+		"newFeature": true,
+		"coverView": true,
+		"nodeModules": false,
+		"autoAudits": false,
+		"showShadowRootInWxmlPanel": true,
+		"scopeDataCheck": false,
+		"uglifyFileName": false,
+		"checkInvalidKey": true,
+		"checkSiteMap": true,
+		"uploadWithSourceMap": true,
+		"compileHotReLoad": false,
+		"babelSetting": {
+			"ignore": [],
+			"disablePlugins": [],
+			"outputPath": ""
+		},
+		"useIsolateContext": true,
+		"useCompilerModule": false,
+		"userConfirmedUseCompilerModuleSwitch": false
+	},
+	"appid": "wx723d7c2af848c4f7",
+	"projectname": "chdm",
+	"libVersion": "2.8.1",
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"gamePlugin": {
+			"current": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 0,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "pages/specialty/specialty",
+					"pathName": "pages/specialty/specialty",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/address/address",
+					"pathName": "pages/address/address",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/procedure/procedure",
+					"pathName": "pages/procedure/procedure",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/ui/ui",
+					"pathName": "pages/ui/ui",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/web/web",
+					"pathName": "pages/web/web",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/php/php",
+					"pathName": "pages/php/php",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 7,
+					"name": "pages/linux/linux",
+					"pathName": "pages/linux/linux",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/android/android",
+					"pathName": "pages/android/android",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/c++/c++",
+					"pathName": "pages/c++/c++",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "pages/summary/summary",
+					"pathName": "pages/summary/summary",
+					"scene": null
+				}
+			]
+		}
+	}
+}

@@ -1,0 +1,63 @@
+<view>
+	<view class="flx" bindtap="ui">
+		<image src="../../images/ui.jpg"></image>
+		<view class="box">
+			<view class="title">UI交互设计</view>
+			<view class="text">
+				<view class="viw">就业方向：</view>
+				视觉设计师、网站设计师、App设计师、视觉策划、交互设计师、UI创意设计师
+			</view>
+		</view>
+	</view> 
+  <view class="flx" bindtap="web">
+		<image src="../../images/web.jpg"></image>
+		<view class="box">
+			<view class="title">WEB前端开发</view>
+			<view class="text">
+				<view class="viw">就业方向：</view>
+				WEB架构师、前端工程师、网页设计师、H5前端工程师
+			</view>
+		</view>
+	</view>
+  <view class="flx" bindtap="php">
+		<image src="../../images/php.jpg"></image>
+		<view class="box">
+			<view class="title">PHP</view>
+			<view class="text">
+				<view class="viw">就业方向：</view>
+				php工程师、网站建设、网站维护、全栈工程师、php架构师
+			</view>
+		</view>
+	</view>
+  <view class="flx" bindtap="android">
+		<image src="../../images/Android.jpg"></image>
+		<view class="box">
+			<view class="title">Android工程师</view>
+			<view class="text">
+				<view class="viw">就业方向：</view>
+				Android 研发工程师、 Android策划师、 Android游戏开发工程师...
+			</view>
+		</view>
+	</view>
+	<view class="flx" bindtap="c">
+		<image src="../../images/c++.jpg"></image>
+		<view class="box">
+			<view class="title">C/C++</view>
+			<view class="text">
+				<view class="viw">就业方向：</view>
+				C/C++开发工程师、C/C++软件工程师、C/C++游戏工程师、C/C++架构师
+			</view>
+		</view>
+	</view>
+	<view class="flx" bindtap="linux">
+		<image src="../../images/linux.jpg"></image>
+		<view class="box">
+			<view class="title">运维开发</view>
+			<view class="text">
+				<view class="viw">就业方向：</view>
+				数据库工程师、运维开发工程师、运维平台研发工程师、运维经理
+			</view>
+		</view>
+	</view>
+	<view style="width:100%;height:10vh"></view>
+</view>
